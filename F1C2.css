@@ -1,0 +1,150 @@
+
+body{
+    background-color: rgb(39, 39, 39);
+    color: rgb(193, 192, 192);
+    /* color: blanchedalmond; */
+}
+
+html,body{
+    border:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div   {
+    margin: 100px;
+    box-shadow: 1px 1px 10px 0 rgb(195, 192, 192) 
+}
+/* .hero, .alignform, .content{
+    background-color: white;
+    /* margin: auto; */
+    /* box-shadow: 1px 1px 6px 0 gray ;
+ */ */
+
+
+.heading{
+    text-align:center; 
+    position:absolute; 
+    
+    font-size: 350px; 
+    color:rgb(136, 0, 25);
+}
+.logodiv {
+    position: relative;
+    margin: 500px 0px;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    margin-left: 300px;
+    align-items: center;
+
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px;
+    width: 90%;
+    height: 150px;
+}
+.logoimage{
+    margin-left: 110px;
+    width: 350px;
+}
+
+ .logo, .menu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .menu ul li {
+    list-style: none;
+    display: inline-block;   
+ }
+ .bok, .reg{
+    text-decoration: none;
+    margin-right: 300px;
+    /* height: 40px; */
+    color: white;
+ }
+
+ .menu ul{
+    font-size: 50px;
+    /* display: flex;
+    justify-content: space-evenly; */
+
+
+ }
+
+ 
+section{
+       width: 80%;
+       margin: 100px auto;
+       font-size: 50px;
+       line-height:80px ;
+       text-align: justify;
+       padding-top: 300px;
+    }
+    .hero{
+        color: #577592;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Averta PE,sans-serif;
+        line-height: 1.5;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+
+    }
+    tr{
+        margin 100px;
+        
+    }
+
+    table, th, td {
+        text-align: left;
+        /* align-content: center; */
+        border:1px solid black;
+      }
+      
+.alignform {
+        margin-bottom: 50px;
+    }
+
+    label {
+        height : 40px;
+        display: inline-block;
+        padding-left: 400px;
+        width: 600px;
+        color: #439586;
+    }
+
+    input {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        height : 60px;
+        padding: 5px 20px;
+        margin-bottom: 10px;;
+    }
+    input[type=radio] {
+        border: 0px;
+        width: 1.5%;
+        height: 1em;
+        /* margin-right: 20px; */
+    }
+    /* input [placeholder] {
+        text-emphasis: 3%;
+        text-align: center;
+        height: 20px;
+    } */
+
+    input[type=submit] {
+        margin-left: 850px;
+        border: 0px;
+        width: 8%;
+        height: auto;
